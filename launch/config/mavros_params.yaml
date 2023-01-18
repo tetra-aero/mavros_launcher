@@ -1,0 +1,5 @@
+mavros_node:
+  ros__parameters:
+    gcs_url: udp://@localhost:14445
+    fcu_url: "/dev/ttyACM0:57600"
+    tgt_system: 1 
