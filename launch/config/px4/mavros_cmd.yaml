@@ -1,0 +1,3 @@
+mavros/cmd:
+  ros__parameters:
+    use_comp_id_system_control: false # quirk for some old FCUs

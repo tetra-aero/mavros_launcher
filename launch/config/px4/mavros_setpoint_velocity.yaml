@@ -1,0 +1,3 @@
+mavros/setpoint_velocity:
+  ros__parameters:
+    mav_frame: LOCAL_NED

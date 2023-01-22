@@ -1,0 +1,9 @@
+mavros/setpoint_attitude:
+  ros__parameters:
+    reverse_thrust: false     # allow reversed thrust
+    use_quaternion: false     # enable PoseStamped topic subscriber
+    tf:
+      listen: false           # enable tf listener (disable topic subscribers)
+      frame_id: "map"
+      child_frame_id: "target_attitude"
+      rate_limit: 50.0

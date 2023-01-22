@@ -1,0 +1,3 @@
+mavros/setpoint_accel:
+  ros__parameters:
+    send_force: false

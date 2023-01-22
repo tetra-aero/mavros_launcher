@@ -1,0 +1,124 @@
+/mavros/actuator_control:
+  use_sim_time
+/mavros/altitude:
+  frame_id
+  use_sim_time
+/mavros/cmd:
+  command_ack_timeout
+  use_comp_id_system_control
+  use_sim_time
+/mavros/ftp:
+  use_sim_time
+/mavros/geofence:
+  pull_after_gcs
+  use_mission_item_int
+  use_sim_time
+/mavros/global_position:
+  child_frame_id
+  frame_id
+  gps_uere
+  rot_covariance
+  tf.child_frame_id
+  tf.frame_id
+  tf.global_frame_id
+  tf.send
+  use_relative_alt
+  use_sim_time
+/mavros/home_position:
+  use_sim_time
+/mavros/imu:
+  angular_velocity_stdev
+  frame_id
+  linear_acceleration_stdev
+  magnetic_stdev
+  orientation_stdev
+  use_sim_time
+/mavros/local_position:
+  frame_id
+  tf.child_frame_id
+  tf.frame_id
+  tf.send
+  use_sim_time
+/mavros/manual_control:
+  use_sim_time
+/mavros:
+  component_id
+  diagnostic_updater.period
+  fcu_protocol
+  plugin_allowlist
+  plugin_denylist
+  system_id
+  target_component_id
+  target_system_id
+  uas_url
+  use_sim_time
+/mavros_node:
+  fcu_url
+  gcs_url
+  tgt_component
+  tgt_system
+  use_sim_time
+/mavros_router:
+  diagnostic_updater.period
+  fcu_urls
+  gcs_urls
+  uas_urls
+  use_sim_time
+/mavros/mission:
+  enable_partial_push
+  pull_after_gcs
+  use_mission_item_int
+  use_sim_time
+/mavros/nav_controller_output:
+  use_sim_time
+/mavros/param:
+/mavros/rallypoint:
+  pull_after_gcs
+  use_mission_item_int
+  use_sim_time
+/mavros/rc:
+  use_sim_time
+/mavros/setpoint_accel:
+  send_force
+  use_sim_time
+/mavros/setpoint_attitude:
+  reverse_thrust
+  use_quaternion
+  use_sim_time
+/mavros/setpoint_position:
+  mav_frame
+  use_sim_time
+/mavros/setpoint_raw:
+  thrust_scaling
+  use_sim_time
+/mavros/setpoint_trajectory:
+  frame_id
+  mav_frame
+  use_sim_time
+/mavros/setpoint_velocity:
+  mav_frame
+  use_sim_time
+/mavros/sys:
+  conn_timeout
+  disable_diag
+  heartbeat_mav_type
+  heartbeat_rate
+  min_voltage
+  use_sim_time
+/mavros/time:
+  convergence_window
+  max_consecutive_high_deviation
+  max_consecutive_high_rtt
+  max_deviation_sample
+  max_rtt_sample
+  system_time_rate
+  time_ref_source
+  timesync_alpha_final
+  timesync_alpha_initial
+  timesync_beta_final
+  timesync_beta_initial
+  timesync_mode
+  timesync_rate
+  use_sim_time
+/mavros/wind:
+  use_sim_time
